@@ -1,19 +1,17 @@
-### Date created
-This project creation started on April 17th
+# Bikeshare Data Analysis
 
-### Bikeshare Data Analysis
+*This project creation started on April 17th*
 
-### Description
-Describe what your project is about and what it does
+## Description
 
-The project is to analyze bikeshare data from the cities Chicago, New York City and Washington.
+**The project is to analyze bikeshare data from the cities Chicago, New York City and Washington.**
 
-The user can decide about
+The user can decide about:
 - City
 - Month
 - Weekday
 
-As results, amongst others, the user gets statistics about
+As results, amongst others, the user gets statistics about:
 
 - Most frequent times of travel
 - Most popular stations and trips
@@ -21,12 +19,11 @@ As results, amongst others, the user gets statistics about
 - User status
 - User gender
 
-
 ### Files used
 - chicago.csv
 - new_york_city.csv
 - washington.csv
 
-### Credits
+##### Credits
 This analysis is part of the Programming for Data Science with Python Nanodegree Programm by Udacity. Files and tasks are provided by Udacity. 
 
