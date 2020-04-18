@@ -1,6 +1,6 @@
 # Bikeshare Data Analysis
 
-*This project creation started on April 17th*
+*April 17th*
 
 ## Description
 
