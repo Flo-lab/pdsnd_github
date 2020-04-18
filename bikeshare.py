@@ -28,9 +28,9 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input ("Which month do you want to analyze? (all / january - june) ").lower()
-        if month in ("all", "january", "february", "march", "april", "may", "june"):
-            print ("OK, Let\'s analyze for the month", month)
+        m = input ("Which month do you want to analyze? (all / january - june) ").lower()
+        if m in ("all", "january", "february", "march", "april", "may", "june"):
+            print ("OK, Let\'s analyze for the month", m)
             break  
         else:
             print ("Please try again to enter a valid month name") 
@@ -47,7 +47,7 @@ def get_filters():
 
     print('-'*40)
     
-    return city, month, day
+    return city, m, day
 
 
 def load_data(city, month, day):
