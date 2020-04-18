@@ -25,5 +25,5 @@ As results, amongst others, the user gets statistics about:
 - washington.csv
 
 ##### Credits
-This analysis is part of the Programming for Data Science with Python Nanodegree Programm by Udacity. Files and tasks are provided by Udacity. 
+This analysis is part of the "Programming for Data Science with Python" Nanodegree Programm by Udacity. Files and tasks are provided by Udacity. 
 
