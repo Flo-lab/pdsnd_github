@@ -38,16 +38,16 @@ def get_filters():
             
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input ("Which weekday do you want to analyze? (all / monday - sunday) ").lower()
-        if day in ("all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"):
-            print ("OK, Let\'s analyze for the weekday", day)
+        d = input ("Which weekday do you want to analyze? (all / monday - sunday) ").lower()
+        if d in ("all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"):
+            print ("OK, Let\'s analyze for the weekday", d)
             break  
         else:
             print ("Please try again to enter a valid weekday name")
 
     print('-'*40)
     
-    return city, m, day
+    return city, m, d
 
 
 def load_data(city, month, day):
